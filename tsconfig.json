@@ -36,6 +36,6 @@
     "node_modules"
   ],
   "remoteEnv": {
-    "GROQ_API_KEY": "${localEnv:'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'}"
+    "GROQ_API_KEY": "${localEnv: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}"
   }
 }
