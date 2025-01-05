@@ -15,7 +15,7 @@ import {
 } from "@/lib/settings";
 
 const client = new Groq({
-	apiKey: process.env.GROQ_API_KEY,
+	apiKey: "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",
 });
 
 async function checkContentSafety(

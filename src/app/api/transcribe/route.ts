@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import Groq from 'groq-sdk';
 
 const client = new Groq({
-  apiKey: process.env.GROQ_API_KEY,
+	apiKey: "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",
 });
 
 async function transcribeAudio(audioBlob: Blob): Promise<Groq.Audio.Transcriptions.Transcription> {
